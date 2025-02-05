@@ -4,7 +4,7 @@ function checkPassword() {
     const errorMessage = document.getElementById("errorMessage");
   
     if (input === password) {
-      window.location.href = "index.html"; // Redirect to the main page
+      window.location.href = "main.html"; // Redirect to the main page
     } else {
       errorMessage.classList.remove("hidden"); // Show error message
     }
