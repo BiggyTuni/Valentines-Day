@@ -1,0 +1,60 @@
+/* Reset some defaults */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Base page styling */
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;  /* use min-height so content can grow */
+    background-color: #ffebee;
+    font-family: 'Nunito', sans-serif;
+  }
+  
+  /* Main container for the letter */
+  .container {
+    width: 90%;
+    max-width: 800px;
+    background-color: rgba(123, 119, 119, 0.3);  /* subtle overlay for contrast */
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+    margin: 20px; /* some spacing on smaller screens */
+  }
+  
+  /* Header styling */
+  .header_text {
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    margin-bottom: 20px;
+  }
+  
+  /* GIF container styling */
+  .gif_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .gif_container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  /* Paragraph styling for the letter */
+  p {
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    line-height: 1.6;
+    font-weight: bold;
+    margin: 20px 0;
+  }
+  

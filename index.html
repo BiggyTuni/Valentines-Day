@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Will You Be My Valentine?</title>
+</head>  
+</html>
+<head>
+    <link rel="stylesheet" href="./styles.css">
+</head> 
+<body>
+    <div class="container">
+        <div>
+            <h1 class="header_text">Meesho, will you be my valentine?</h1>
+        </div>
+        
+        <!-- GIF Container with both images stacked -->
+        <div class="gif_container">
+            <img id="originalGif" src="cat-meme.gif" class="gif visible">
+            <img id="newGif" src="cat-annoyed.gif" class="gif hidden">
+        </div>
+
+        <div class="buttons">
+            <button class="btn" id="yesButton" onclick="nextPage()">Yes</button>
+            <button class="btn" id="noButton" onmouseover="moveButton()">No</button>
+        </div>
+    </div>    
+
+    <script src="script.js"></script> 
+</body> 
+</html>
